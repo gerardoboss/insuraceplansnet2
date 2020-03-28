@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>InsurancePlansNetCore_web</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\css\mixins" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\InsurancePlansNetCore-data\InsurancePlansNetCore-data.csproj" />
+    </ItemGroup>
+
+
+</Project>

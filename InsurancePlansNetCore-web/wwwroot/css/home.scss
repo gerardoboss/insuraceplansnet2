@@ -1,0 +1,37 @@
+.hero {
+  background-image: url("../images/cover-photo.jpg");
+  background-size: cover;
+  background-color: blue;
+  line-height: 1;
+
+  .choose_product{
+    .title {
+      font-size: 50px;
+      letter-spacing: 4px;
+    }
+
+    .sub-title {
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .product_boxes {
+    .featured_product_1, .featured_product_2, .featured_product_3 {
+      display: flex;
+      color: white;
+    }
+
+    .featured_product_1 {
+      background-color: $insuranceBlueLight;
+    }
+
+    .featured_product_2 {
+      background-color: $insuranceBlue;
+    }
+
+    .featured_product_3 {
+      background-color: $insuranceBlueDark;
+    }
+  }
+}
