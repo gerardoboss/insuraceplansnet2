@@ -3,9 +3,11 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="InsurancePlansNetCore-data" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DataAccess" t="Include">
-          <e p="InsuranceContext.cs" t="Include" />
+          <e p="AutoDAL.cs" t="Include" />
         </e>
         <e p="InsurancePlansNetCore-data.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
