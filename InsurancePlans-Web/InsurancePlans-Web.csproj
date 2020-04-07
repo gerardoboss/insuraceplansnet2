@@ -5,5 +5,9 @@
         <RootNamespace>InsurancePlans_Web</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\InsurancePlans-Core\InsurancePlans-Core.csproj" />
+    </ItemGroup>
+
 
 </Project>

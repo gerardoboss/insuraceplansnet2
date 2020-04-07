@@ -27,15 +27,7 @@ namespace InsurancePlans_Core
         [Phone]
         [Display(Name="Cell Phone")]
         public string CellPhone { get; set; }
-        [Required]
-        [Display(Name="Address")]
-        public string Address { get; set; }
-        [Required]
-        public string City { get; set; }
-        [Required]
-        public string State { get; set; }
-        [Required]
-        public string Country { get; set; }
+        
         [Required]
         [Display(Name="Household")]
         public int Household { get; set; }
@@ -51,10 +43,7 @@ namespace InsurancePlans_Core
         public bool TobaccoUse { get; set; }
         public int StatusId { get; set; }
         public virtual Status Status{ get; set; }
-        [Required]
-        [Display(Name = "Zip Code")]
-        [RegularExpression(@"^\d{5}(?:[-\s]\d{4})?$")]
-        public string ZipCode { get; set; }
+        public GeoLocation GeoLocation { get; set; }
         [Required]
         public int InsuranceServiceId { get; set; }
         public virtual InsuranceService InsuranceService{ get; set; }

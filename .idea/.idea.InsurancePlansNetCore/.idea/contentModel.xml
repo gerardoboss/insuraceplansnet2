@@ -3,11 +3,30 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="InsurancePlans-Core" t="IncludeRecursive">
+        <e p="Auto.cs" t="Include" />
+        <e p="AutoBrand.cs" t="Include" />
+        <e p="AutoModel.cs" t="Include" />
+        <e p="AutoTrim.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="FamilyMember.cs" t="Include" />
+        <e p="FamilyMemberType.cs" t="Include" />
         <e p="Gender.cs" t="Include" />
+        <e p="GeoLocation.cs" t="Include" />
+        <e p="Health.cs" t="Include" />
+        <e p="HealthPlanTerm.cs" t="Include" />
+        <e p="HealthReason.cs" t="Include" />
+        <e p="Home.cs" t="Include" />
+        <e p="HomeCloseToFireStation.cs" t="Include" />
+        <e p="HomeFoundationType.cs" t="Include" />
+        <e p="HomeFrameType.cs" t="Include" />
+        <e p="HomeHeatingSystem.cs" t="Include" />
+        <e p="HomeOwn.cs" t="Include" />
+        <e p="HomePropertyType.cs" t="Include" />
+        <e p="HomeRoofMaterial.cs" t="Include" />
         <e p="InsurancePlans-Core.csproj" t="IncludeRecursive" />
         <e p="InsuranceService.cs" t="Include" />
         <e p="Lead.cs" t="Include" />
+        <e p="Medicare.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

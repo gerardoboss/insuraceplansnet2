@@ -4,7 +4,11 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="inplans">
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" asp-for="ZipCode" id="zipcode" placeholder="Zip Code">
+            <span asp-validation-for="ZipCode" class="text-danger"></span>
+        </div>
+    </form>
 </div>
