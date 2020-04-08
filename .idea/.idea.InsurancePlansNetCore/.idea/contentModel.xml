@@ -53,7 +53,14 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="gulpfile.js" t="Include" />
         <e p="InsurancePlans-Web.csproj" t="IncludeRecursive" />
+        <e p="node_modules/gulp" t="IncludeRecursive" />
+        <e p="node_modules/gulp-clean-css" t="IncludeRecursive" />
+        <e p="node_modules/gulp-concat" t="IncludeRecursive" />
+        <e p="node_modules/gulp-postcss" t="IncludeRecursive" />
+        <e p="node_modules/gulp-sass" t="IncludeRecursive" />
+        <e p="node_modules/postcss-load-config" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -62,6 +69,8 @@
             </e>
           </e>
         </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
         <e p="Pages" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
@@ -85,11 +94,13 @@
         <e p="Startup.cs" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
-            <e p="site.css" t="Include" />
+            <e p="style.min.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include" />
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
+            <e p="site.min.js" t="Include" />
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">
@@ -143,6 +154,10 @@
               <e p="jquery.validate.unobtrusive.min.js" t="Include" />
               <e p="LICENSE.txt" t="Include" />
             </e>
+          </e>
+          <e p="scss" t="Include">
+            <e p="_variables.scss" t="Include" />
+            <e p="insurance_plans.scss" t="Include" />
           </e>
         </e>
       </e>

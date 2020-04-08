@@ -9,5 +9,10 @@
       <ProjectReference Include="..\InsurancePlans-Core\InsurancePlans-Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\css" />
+      <Folder Include="wwwroot\images" />
+    </ItemGroup>
+
 
 </Project>
